@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: pink;
+        }
+        h1{
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Difference between relative and absolute positioning</h1>
+           <h2><u>Reference Point:</u></h2>
+           <b>●Absolute Positioning:</b> Elements with absolute positioning are positioned relative 
+            to the nearest positioned ancestor (an ancestor that is not static) or the initial 
+            containing block (the viewport if there is no positioned ancestor).<br>
+            <b>●Relative Positioning:</b>Elements with relative positioning are positioned relative 
+            to their normal position in the document flow. The positioning is relative to the 
+            element's normal position.
+            <h2><u >Document Flow:</u></h2>
+        <b>●Absolute Positioning:</b> Elements with absolute positioning are taken out of the
+             normal document flow. Other elements act as if the absolutely positioned element doesn't exist.<br>
+            <b>  ●Relative Positioning:</b> Elements with relative positioning still occupy space in
+             the normal document flow. The space they would have occupied before positioning is preserved.
+            <h2><u> Effect on Siblings:</u></h2>
+        <b> ●Absolute Positioning:</b> Absolutely positioned elements can overlap with other elements,
+             and they are not affected by the presence of siblings.<br>
+            <b> ●Relative Positioning:</b> The space reserved for the element is still maintained in the
+             document flow, affecting the positioning of subsequent elements.
+
+</body>
+</html>
